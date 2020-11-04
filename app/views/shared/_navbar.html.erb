@@ -7,18 +7,14 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-      <%= link_to 'Home', root_path, class: 'sr-only' %>
+      <%= link_to 'Home', root_path %>
       </li>
       <li class="nav-item">
-        <%= link_to 'Page Two', page:_two_path %>
+        <%= link_to 'Page Two', pages_two_path %>
       </li>  
       <li class="nav-item">
-        <%= link_to 'Page Three', page:_three_path %>
+        <%= link_to 'Page Three', pages_three_path %>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
   </div>
 </nav>
